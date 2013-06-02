@@ -190,8 +190,5 @@ public class TambahData extends Activity {
 		else {
 			id = sqliteDB.insertData(sqliteDB.ambilDataNabi(nama_nabi_in, keterangan_in, gambar_in),"tbL_nabi");
 		}
-		Intent intent = new Intent(this, DataNabi.class);
-		intent.putExtra("nama_nabi", "");
-		startActivity(intent);
 	}
 }
