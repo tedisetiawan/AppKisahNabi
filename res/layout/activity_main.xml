@@ -49,14 +49,14 @@
         android:id="@+id/tableRow2"
         android:layout_width="match_parent">
         <Button
-        	android:id="@+id/btn_khs"
+        	android:id="@+id/btn_data_nabi"
         	style="@style/DashboardButton"
         	android:drawableTop="@drawable/database"
     		android:layout_span="3"
     		android:textColor="#000"
         	android:text="Data Nabi dan Rasul" />
         <Button
-        	android:id="@+id/btn_krs"
+        	android:id="@+id/btn_tambah_data"
         	style="@style/DashboardButton"
     		android:layout_span="3"
     		android:textColor="#000"
@@ -68,14 +68,14 @@
         android:id="@+id/tableRow2"
         android:layout_width="match_parent">
         <Button
-        	android:id="@+id/btn_transkrip"
+        	android:id="@+id/btn_login"
         	style="@style/DashboardButton"
     		android:layout_span="3"
     		android:textColor="#000"
         	android:drawableTop="@drawable/login"
         	android:text="Log In Admin" />
         <Button
-        	android:id="@+id/btn_logout"
+        	android:id="@+id/btn_about"
         	style="@style/DashboardButton"
     		android:layout_span="3"
     		android:textColor="#000"
